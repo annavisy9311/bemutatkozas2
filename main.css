@@ -1,0 +1,197 @@
+/*==== A SIMPLE CSS RESET FROM ERIC MEYER ====*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+/*====BASE LAYOUT STYLES====*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50vw;
+  height: calc(100vh - 40px);
+  margin: 40px auto;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+}
+
+#box-01 {
+  top: 180px;
+  margin: 1%;
+  padding: 1%;
+  width: 55%;
+  height: 110px;
+}
+
+#box-02 {
+  top: 300px;
+  float: right;
+  margin: 1%;
+  padding: 1%;
+  width: 55%;
+  height: 110px;
+    position: inherit;
+}
+
+#box-03 {
+  top: 420px;
+  margin: 1%;
+  padding: 1%;
+  width: 55%;
+  height: 110px;
+}
+
+#box-04 {
+  top: 560px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+#box-05 {
+  top: 20px;
+  left: 100;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 100px;
+}
+
+
+#profile-picture {
+  top: 50px;
+  right: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 170px;
+  height: 220px;
+}
+
+/*====BASE STYLES====*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  background: url('https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Lora', serif;
+  font-family: 'Old Standard TT', serif;
+}
+
+.container {
+  background-color: cornsilk;
+  border-radius: 25px;
+}
+
+#profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px;
+  background-color: lightsalmon;
+  padding: 5px;
+  filter: grayscale(60%);
+}
+
+#profile-pic:hover {
+  transform: scale(1.2);
+  filter: grayscale(10%);
+}
+
+h1 {
+  width: auto;
+  font-family: 'Megrim', cursive;
+  font-size: 3rem;
+  color: lightsalmon;
+}
+
+#location {
+  font-family: 'Old Standard TT', serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  color: lightsalmon;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+.white {
+  color: lightsalmon;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+.info {
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.2;
+  font-family: 'Old Standard TT', serif;
+  color: lightsalmon;
+}
+
+#box-01, #box-02, #box-03, #box-05 {
+  background-color: gainsboro;
+  border: 5px;
+  border-radius: 25px;
+}
+
+#school {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+#school:hover {
+  color: white;
+}
+
+
