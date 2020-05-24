@@ -52,7 +52,7 @@ ol, ul {
 }
 
 #box-01 {
-  top: 180px;
+  top: 160px;
   margin: 1%;
   padding: 1%;
   width: 55%;
@@ -60,7 +60,7 @@ ol, ul {
 }
 
 #box-02 {
-  top: 300px;
+  top: 280px;
   float: right;
   margin: 1%;
   padding: 1%;
@@ -70,7 +70,7 @@ ol, ul {
 }
 
 #box-03 {
-  top: 420px;
+  top: 400px;
   margin: 1%;
   padding: 1%;
   width: 55%;
@@ -78,7 +78,7 @@ ol, ul {
 }
 
 #box-04 {
-  top: 560px;
+  top: 530px;
   bottom: 0;
   width: 100%;
   height: 50px;
